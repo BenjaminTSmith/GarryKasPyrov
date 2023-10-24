@@ -6,4 +6,4 @@ the tree search is determined by the pieces value and its positional value based
 here: https://www.chessprogramming.org/Simplified_Evaluation_Function. The garrykasparov.py file utilizes the chessai.py file for its move search, and implements
 a very simple UCI protocol for chess engine communication. The entirety of the chessV2 engine system was perft tested in various positions and compared to stockfish's 
 perft results, indicating that the move generation and move making was completely bug free. I used pyinstaller to turn garrykasparov.py into an executable file and then 
-used the lichess-bot repository as a bridge to the Lichess API. 
+used the lichess-bot repository as a bridge to the Lichess API. A link to the bot's Lichess account can be found here: https://lichess.org/@/GarryKasPyrov
